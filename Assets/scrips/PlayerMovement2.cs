@@ -8,31 +8,30 @@ public class PlayerMovement2 : MonoBehaviour
 
     private Vector3 movement;
 
+    public Rigidbody rb;
+
+    private void Start()
+    {
+        rb = GetComponent<Rigidbody>();
+    }
+
     void Update()
     {
         float horizontal = Input.GetAxisRaw("Horizontal2");
         float vertical = Input.GetAxisRaw("Vertical2");
-        movement = new Vector3(horizontal, 0f, vertical);
+        movement = new Vector3(horizontal, 0f, vertical).normalized;
 
         if (movement.magnitude > 1f)
         {
             movement.Normalize();
         }
-
-        Move();
     }
 
-    void Move()
+    void FixedUpdate()
     {
-        transform.Translate(movement * speed * Time.deltaTime, Space.World);
-    }
-
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.collider.CompareTag("Pelota"))
-        {
-            Destroy(gameObject);
-        }
+        Vector3 velocity = movement * speed * Time.fixedDeltaTime;
+        rb.MovePosition(rb.position + velocity);
     }
 }
+
 
