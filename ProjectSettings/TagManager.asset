@@ -6,15 +6,17 @@ TagManager:
   tags:
   - Pared
   - Pelota
+  - Jug1
+  - Jug2
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - pelota
+  - 
   - Water
   - UI
-  - pared
-  - jugador
+  - 
+  - 
   - 
   - 
   - 

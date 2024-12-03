@@ -7,6 +7,8 @@ public class ShellBehaviour : MonoBehaviour
     public float minSpeedX, minSpeedZ, maxAbsoluteSpeed;
     public float speedIncremen;
     private Rigidbody rb;
+    public GameObject jgd1;
+    public GameObject jgd2;
 
     void Start()
     {
@@ -56,6 +58,16 @@ public class ShellBehaviour : MonoBehaviour
             minSpeedX += speedIncremen;
             minSpeedZ += speedIncremen;
         }
+        if (collision.collider.CompareTag("Jug1"))
+        {
+            Destroy(jgd1);
+
+        }
+        if (collision.collider.CompareTag("Jug2"))
+        {
+            Destroy(jgd2);
+        }
+
     }
 
     public void ResetShell()

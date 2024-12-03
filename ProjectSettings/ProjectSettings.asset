@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: d22c40a89070dad43b379fcfd0404531
+  productGUID: 372807d4e8126e347b0d104f94c881ad
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: br_1vs1
+  productName: brminiya
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -160,8 +160,7 @@ PlayerSettings:
   resetResolutionOnWindowResize: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
-  applicationIdentifier:
-    Standalone: com.DefaultCompany.br-1vs1
+  applicationIdentifier: {}
   buildNumber:
     Standalone: 0
     VisionOS: 0
@@ -867,14 +866,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: br_1vs1
+  metroPackageName: brminiya
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: br_1vs1
+  metroApplicationDescription: brminiya
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -944,10 +943,10 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: 8df4ac9f-f2f3-4d3e-ae41-2b35963ff505
+  cloudProjectId: 6810dff3-f4a5-40a4-b30b-3f150d91c9bf
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: br_1vs1
+  projectName: brminiya
   organizationId: onicv
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0

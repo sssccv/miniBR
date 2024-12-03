@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638678275060000000
-    m_Hash: 966462131
+      ticks: 638687888287202230
+    m_Hash: 1609444834
   m_LockFileStatus:
     m_FilePath: C:/Users/PC/Desktop/miniBR/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638678275060000000
-    m_Hash: 693826688
+      ticks: 638687888287301152
+    m_Hash: 1302902525
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,12 +22,12 @@ m_LocalPackages:
 m_ProjectPath: C:/Users/PC/Desktop/miniBR/Packages
 m_EditorVersion: 2022.3.41f1 (0f988161febf)
 m_ResolvedPackages:
-- packageId: com.unity.collab-proxy@2.5.2
+- packageId: com.unity.collab-proxy@2.6.0
   testable: 0
   isDirectDependency: 1
-  version: 2.5.2
+  version: 2.6.0
   source: 1
-  resolvedPath: C:\Users\PC\Desktop\miniBR\Library\PackageCache\com.unity.collab-proxy@2.5.2
+  resolvedPath: C:\Users\PC\Desktop\miniBR\Library\PackageCache\com.unity.collab-proxy@2.6.0
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -144,6 +144,7 @@ m_ResolvedPackages:
   - teams
   - version
   - vcs
+  - uvcs
   registry:
     id: main
     name: 
@@ -154,13 +155,13 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638630364536670000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.5/manual/index.html
+  datePublishedTicks: 638684801569990000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.6/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: c402e6396d3ea20ecb2d59eac908e7e0a30cd7e6
+    revision: b7effc6b40a40af218ae30084906471699330ac9
     path: 
   unityLifecycle:
     version: 2.4.4

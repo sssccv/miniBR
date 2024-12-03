@@ -66,7 +66,6 @@
     <Compile Include="Assets\scrips\rompeesc.cs" />
     <Compile Include="Assets\scrips\RotateObject.cs" />
     <Compile Include="Assets\scrips\PlayerMovement2.cs" />
-    <Compile Include="Assets\scrips\playerdead.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
