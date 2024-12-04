@@ -11,7 +11,7 @@ public class closegame : MonoBehaviour
         }
     }
 
-    void CloseGame()
+    public void CloseGame()
     {
         Application.Quit();
 #if UNITY_EDITOR

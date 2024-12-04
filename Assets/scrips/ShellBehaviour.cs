@@ -61,11 +61,15 @@ public class ShellBehaviour : MonoBehaviour
         if (collision.collider.CompareTag("Jug1"))
         {
             Destroy(jgd1);
+            GameManager.instance.J1Winner = false;
+            GameManager.instance.J2Winner = true;
 
         }
         if (collision.collider.CompareTag("Jug2"))
         {
             Destroy(jgd2);
+            GameManager.instance.J1Winner = true;
+            GameManager.instance.J2Winner = false;
         }
 
     }
